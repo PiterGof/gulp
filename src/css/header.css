@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+}
+.wrap {
+	margin: 0 auto;
+	width: 56.6vw;
+}
+.header__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 0;
+}
+.line {
+	margin: 0 auto;
+	width: 64vw;
+	height: 1px;
+	background-color: #eee;
+}
+.number, .cart {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: .71vmax;
+	font-family: 'Montserrat', serif;
+	font-weight: 500;
+}
+.number i, .cart i{
+	margin-right: .4vw;
+	font-size: 1.2vmax; 
+}
+.logo h2 a{
+	font-family: 'Cantata One', serif;
+	text-transform: uppercase;
+	font-size: 1.3vmax;
+	color: #000;
+}
+.cart span{
+	font-weight: bold;
+	font-size: .68vmax;
+}
+.cart i, li i{
+	margin-left: 10px;
+}
+nav ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+nav ul{
+	padding: 50px 0;
+}
+nav ul li {
+	margin-right: 2.5vw;
+}
+li a {
+	font-family: 'Montserrat', serif;
+	font-size: .7vmax;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+nav ul li:last-child {
+	margin-right: 0;
+}

@@ -1,0 +1,73 @@
+.category {
+	text-align: center;
+	padding-top: 105px;
+
+}
+.category h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 48px;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 4vh;
+}
+.cont {
+	margin-right: 30px;
+}
+.category__men {
+	margin-bottom: 2.5vh;
+}
+.category__men, .category__jewellery {
+	width: 530px;
+	height: 348px;
+	background-color: #eeeeee;
+}
+.category__women {
+	width: 530px;
+	height: 716px;
+	background-color: #eeeeee;
+}
+.category__women, .category__men, 
+.category__jewellery {
+	text-align: left;
+	padding: 50px;
+} 
+.category__women  p, .category__men  p, 
+.category__jewellery p {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: #333333; 
+}
+.category__women  a, .category__men  a, 
+.category__jewellery a {
+	color: #777777;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+}
+.category__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.category__jewellery {
+	background-image: url(/image/mink-mingle-388667-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.category__men {
+	background-image: url(/image/attentie-attentie-659597-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.category__women {
+	background-image: url(/image/tamara-bellis-143262-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}

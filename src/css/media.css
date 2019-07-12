@@ -1,0 +1,129 @@
+@media screen and (max-width: 1600px) {
+	body {
+		background-color: #e2388d;
+	}
+	.number, .cart {
+		font-size: .84vmax;
+	}
+	.cart span {
+	 	font-size: .81vmax;
+	 }
+	.logo {
+		font-size: 1.6vmax;
+	}
+	nav .header__menu a {
+		font-size: .8vmax;
+	}
+	.category__women {
+		width: 
+	}
+	.card4 {
+		margin-right: 1.5vw
+	}
+}
+
+@media screen and (max-width: 900px) {
+	body {
+		background-color: #ca23ff;
+	}
+	.category__list {
+		flex-flow: column nowrap;
+	}
+	.category__jewellery, .category__men {
+		margin-right: 0;
+	}
+	.category__jewellery {
+		margin-bottom: 2.5vh;
+	}
+
+
+	.footer__top {
+		flex-flow: column nowrap;
+		justify-content: center;
+	}
+	.info {
+		width: 100%;
+		justify-content: space-between;
+	}
+	.info__company {
+
+		margin-right: 0;
+		margin-bottom: 60px;
+	}
+
+}
+@media screen and (max-width: 400px) {
+	body {
+		background-color: #aed;
+	}
+	.wrap {
+		width: 68%;
+	}
+	nav {
+		display: none;
+	}
+	.products__card {
+		width: 90%;
+	}
+	.category__men, .category__jewellery, .category__women {
+		width: 100%;	
+	}
+	.slider {
+		text-align: center;
+		justify-content: center;
+	}
+	.slider__btn {
+		margin: 0 auto; 
+	}
+	header .title h1 {
+		font-size: 5vmax;
+	}
+	.slider__arrow-left, .slider__arrow-right {
+		display: none;
+	}
+	.footer__top {
+		flex-flow: column nowrap;
+	}
+	.info {
+		justify-content: center;
+	}
+	.info__company {
+		margin-right: 0;
+		margin-bottom: 60px;
+	}
+	.footer__btn {
+		width: 210px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	body {
+		background-color: #344;
+	}
+	.wrap {
+		width: 72%;
+	}
+	.products__card {
+		width: 100%;
+	}
+	.cont, .category__women {
+		width: 100%;	
+	}
+
+}
+
+@media screen and (max-width: 310px) {
+	body {
+		background-color: #76fa;
+	}
+	.wrap {
+		width: 80%;
+	}
+	.products__card {
+		width: 100%;
+		padding: 0;
+	}
+	.category__men, .category__jewellery, .category__women {
+		width: 100%;	
+	}
+}
